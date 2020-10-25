@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-axios.defaults.baseURL = "http://172.96.244.220:9595/";
+axios.defaults.baseURL = "http://49.235.134.252:9595/";
 export function getMainPageData (page, callback) {
 
   return axios.get("artwork/main/" + page).then(res => {
